@@ -16,13 +16,20 @@ width: 350px;
     width: 60px;
 }
 .video-info-preview{
+    margin-top: 0;
+    vertical-align: top;
     display: inline-block;
 }
 .channel-profile{
-    width: 55px;
+    height: 50px;
+   border-radius: 50px;
+}
+.video-channel{
+   height: 60px;
+   vertical-align: top;
 }
 .video-title{
-
+margin-top: 0;
 }
 .video-info{
 
