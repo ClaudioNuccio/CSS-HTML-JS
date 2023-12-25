@@ -4,11 +4,11 @@
 
 }
 .video-preview{
-    display: inline;
-
+    width: 400px;
+    display: inline-block;
 }
 .video-thumbnail{
-    width: 375px;
+width: 350px;
 }
 .video-title{
 
