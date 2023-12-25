@@ -11,6 +11,16 @@
 .video-thumbnail{
 width: 350px;
 }
+.video-channel{
+    display: inline-block;
+    width: 60px;
+}
+.video-info-preview{
+    display: inline-block;
+}
+.channel-profile{
+    width: 55px;
+}
 .video-title{
 
 }
