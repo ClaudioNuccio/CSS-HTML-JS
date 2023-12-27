@@ -13,25 +13,60 @@ body{
     background-image: url("/login_images/lo-fi.jpg") ;
     background-size: cover;
 }
-.wrapper {
+.page-wrapper {
     text-align: center;
+    border-radius: 26px;
+    background: transparent;
+    width: 350px;
+    height: 175px;
+
    
 }
 .login-box{
     text-align: center;
-    background-color: blue;
+    color: rgb(212, 145, 114);
+    margin-bottom: 30px;
+}
+.username-bar{
+     width: 250px;
+    height: 35px;
+    border-radius: 100px;
+    margin-bottom: 12px;
+    border: none;
+}
+.login-image{
+    width: 18px;
 }
 .password-box{
-    text-align: center;
-    background-color: purple;
+    text-align: center; 
+}
+.password-image{
+    width: 18px;
+}
+.password-bar{
+    width: 250px;
+    height: 35px;
+    border-radius: 100px;
+    margin-bottom: 12px;
+    border: none;
+}
+.login-button{
+    width: 300px;
+    height: 50px;
+    border-radius: 120px;
+    border-width: 0;
+    margin-top: 12px;
+    background-color: rgb(199, 203, 133);
 }
 .remember-forgot{
     text-align: center;
-    background-color: green;
+}
+.forgotten-psw{
+    margin-left: 15px;
 }
 .registration {
     text-align: center;
-    background-color: yellow;
+
 }
 .submit {
    text-align: center;
