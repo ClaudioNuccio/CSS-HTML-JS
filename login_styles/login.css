@@ -12,6 +12,16 @@ body{
     min-height: 100vh;
     background-image: url("/login_images/lo-fi.jpg") ;
     background-size: cover;
+    color: ivory;
+}
+a{
+    color: rgb(107, 53, 41);
+    font-weight: bold;
+}
+::placeholder{
+    color: ivory;
+    font-size: medium;
+    font-weight: bold;
 }
 .page-wrapper {
     text-align: center;
@@ -24,31 +34,46 @@ body{
 }
 .login-box{
     text-align: center;
-    color: rgb(212, 145, 114);
+    color: rgb(201, 109, 55);
     margin-bottom: 30px;
 }
 .username-bar{
+    background: transparent;
+    margin-left: 18px;
      width: 250px;
     height: 35px;
     border-radius: 100px;
     margin-bottom: 12px;
-    border: none;
+    border-style: ridge;
+    border-width: 2px;
+    border-color: rgb(199, 203, 133);
+    color: ivory;
 }
 .login-image{
+position: relative;
+right: 30px;
+top: 3px;
     width: 18px;
 }
 .password-box{
     text-align: center; 
 }
 .password-image{
-    width: 18px;
+    position: relative;
+    right: 30px;
+    top: 3px;
+        width: 18px;
 }
 .password-bar{
+    background: transparent;
+    margin-left: 18px;
     width: 250px;
     height: 35px;
     border-radius: 100px;
     margin-bottom: 12px;
-    border: none;
+    border-style: ridge;
+    border-width: 2px;
+    border-color: rgb(199, 203, 133);
 }
 .login-button{
     width: 300px;
@@ -57,6 +82,9 @@ body{
     border-width: 0;
     margin-top: 12px;
     background-color: rgb(199, 203, 133);
+    color: ivory;
+    font-size: larger;
+    font-weight: bolder;
 }
 .remember-forgot{
     text-align: center;
@@ -65,8 +93,11 @@ body{
     margin-left: 15px;
 }
 .registration {
+    margin-top: 15px;
     text-align: center;
-
+}
+.bold {
+    font-weight: bold;
 }
 .submit {
    text-align: center;
