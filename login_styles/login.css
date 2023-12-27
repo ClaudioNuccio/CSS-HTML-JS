@@ -1,6 +1,38 @@
-body{
-    height: 100%;
-    width: 100%;
+*{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Quicksand;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("/login_images/lo-fi.jpg") ;
+    background-size: cover;
+}
+.wrapper {
+    text-align: center;
+   
+}
+.login-box{
+    text-align: center;
+    background-color: blue;
+}
+.password-box{
+    text-align: center;
+    background-color: purple;
+}
+.remember-forgot{
+    text-align: center;
+    background-color: green;
+}
+.registration {
+    text-align: center;
+    background-color: yellow;
+}
+.submit {
+   text-align: center;
 }
