@@ -21,9 +21,23 @@
             </div>
             
             <div class="password-box">
-                <input class="password-bar" type="passwordgi" placeholder="Password" required >
-                <img class="password-image" src="login_images/bx-lock.svg">
+                <input class="password-bar" type="password" placeholder="Password" required id="password">
+                <img class="password-image" src="login_images/bx-lock.svg" id="icon">
             </div>
+            <script>
+                let icon =document.getElementById("icon");
+                let password =document.getElementById("password");
+
+                icon.onclick = function(){
+                    if (password.type == "password"){
+                        password.type = "text";
+                        icon.src = "login_images/bx-lock-open.svg"
+                    }else{
+                        password.type = "password";
+                        icon.src = "login_images/bx-lock.svg"
+                    }
+                }
+            </script>
             <div class="remember-forgot">
 <label><input type="checkbox">Remember Me</label>
 <a href="#" class="forgotten-psw">Forgot your password?</a>
