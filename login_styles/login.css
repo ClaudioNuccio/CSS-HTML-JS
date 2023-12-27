@@ -65,6 +65,9 @@ a{
     border-color: rgb(199, 203, 133);
     color: ivory;
 }
+.username-bar:{
+    border-color: aqua;
+}
 .login-image{
 position: relative;
 right: 30px;
