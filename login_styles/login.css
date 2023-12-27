@@ -21,6 +21,8 @@ a{
     font-weight: bold;
 }
 ::placeholder{
+    position: relative;
+    left: 10px;
     color: ivory;
     font-size: medium;
     font-weight: bold;
