@@ -1,5 +1,5 @@
 .youtube-header {
-    height: 35x;
+    height: 50px;
   
     display: flex;
     flex-direction: row;
@@ -14,6 +14,7 @@
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: rgb(228, 228, 228);
+    z-index: 100;
   
   }
   
@@ -108,10 +109,22 @@
   .apps-icon {
     height: 24px;
   }
-  
+  .notifications-icon-container {
+    position: relative;
+
+  }
   .notifications-icon {
     height: 24px;
   }
+.notifications-icon-count{
+position: absolute;
+top: 0;
+right: 0;
+background-color: red;
+color: white;
+font-family: Roboto;
+font-size: 10px;
+}
   
   .current-user-picture {
     height: 32px;

@@ -3,6 +3,19 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 15px;
 }
+.thumbnail-row {
+    position: relative;
+}
+.video-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 23px;
+    right: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+}
 
 .video-thumbnail{
     width: 100%;
