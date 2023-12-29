@@ -8,7 +8,9 @@
 .video-grid{
     grid-template-columns: 1fr 1fr ;
 }
+
 }
+
 @media (min-width :1000px){
     .video-grid{
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -35,7 +37,7 @@
 }
 .video-info-grid {
     display: grid;
-    grid-template-columns: 50px 1fr;
+    grid-template-columns: 50px 1fr 1fr;
 }
 .video-channel{
     margin-top: 12px;
